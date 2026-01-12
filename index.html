@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style data-fls-preloader="true" rel="preload">
+			body>*:not(.fls-preloader) {
+      opacity: 0;
+      visibility: hidden;
+   }
+
+   [data-fls-preloader-loaded] body>*:not(.fls-preloader):not(.scroll-to-top) {
+      transition: opacity 0.5s ease 0s;
+      opacity: 1;
+      visibility: visible;
+   }
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1768223697628"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1768223697628">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" data-fls-lp="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+						<img class="header__logo" src="./assets/img/logo.svg" alt="Image">
+						<nav class="header__menu menu">
+							<ul class="menu__pc-list">
+								<li class="menu__pc-item">
+									<a class="menu__pc-link" href="menu.html">Menu</a>
+								</li>
+								<li class="menu__pc-item">
+									<a class="menu__pc-link" href="about.html">About</a>
+								</li>
+							</ul>
+							<div class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a class="menu__link" href="menu.html">Menu</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="reservation.html">Reservation</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="about.html">About</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="contact.html">Contact</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="blog.html">Blog</a>
+									</li>
+								</ul>
+								<div class="menu__content"></div>
+							</div>
+						</nav>
+						<div class="header__actions">
+							<a data-fls-button="" href="reservation.html" class="header__button button">Book a Table</a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<div class="page__container">
+					<div data-fls-mainpicture="" class="mainpicture mainpicture--home">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/home/bg-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/home/bg-1200.webp" type="image/webp">
+							<img class="mainpicture__image" alt="Image" src="./assets/img/home/bg.webp">
+						</picture>
+						<div class="mainpicture__body">
+							<h1 data-fls-watcher="" data-fls-watcher-once="" class="mainpicture__title">
+								Sushi
+								<span>Sensation</span>
+							</h1>
+							<div data-fls-rounded="" class="mainpicture__social">
+								<a href="https://www.instagram.com/" target="_blank" data-fls-socialitem="" class="socialitem socialitem--icon-s-inst"></a>
+								<a href="https://www.facebook.com/" target="_blank" data-fls-socialitem="" class="socialitem socialitem--icon-s-facebook"></a>
+								<a href="https://x.com/" target="_blank" data-fls-socialitem="" class="socialitem socialitem--icon-s-x"></a>
+							</div>
+						</div>
+					</div>
+					<div class="page__body body-page">
+						<a data-fls-watcher="" data-fls-watcher-once="" href="menu.html" data-fls-menupreview="" class="menupreview">
+							<picture>
+								<img class="menupreview__image" alt="Image" src="./assets/img/home/menu.webp">
+							</picture>
+							<div data-fls-rounded="" class="menupreview__body">
+								<span class="menupreview__button button button--arrow">
+									Menu
+									<span>
+										<svg class="arrow">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+										</svg>
+									</span>
+								</span>
+							</div>
+						</a>
+						<a data-fls-watcher="" data-fls-watcher-once="" href="reservation.html" data-fls-menupreview="" class="menupreview">
+							<picture>
+								<img class="menupreview__image" alt="Image" src="./assets/img/home/reservation.webp">
+							</picture>
+							<div data-fls-rounded="" class="menupreview__body">
+								<span class="menupreview__button button button--arrow">
+									Reservation
+									<span>
+										<svg class="arrow">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+										</svg>
+									</span>
+								</span>
+							</div>
+						</a>
+						<a data-fls-watcher="" data-fls-watcher-once="" href="about.html" data-fls-menupreview="" class="menupreview">
+							<picture>
+								<img class="menupreview__image" alt="Image" src="./assets/img/home/restaurant.webp">
+							</picture>
+							<div data-fls-rounded="" class="menupreview__body">
+								<span class="menupreview__button button button--arrow">
+									Our Restaurant
+									<span>
+										<svg class="arrow">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-arrow"></use>
+										</svg>
+									</span>
+								</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- ========================================================================================================= -->
+			</main>
+		</div>
+		<!-- ? scroll-to-top buttton -->
+		<button data-fls-scrolltop="" data-fls-lp="" data-fls-lp-type="right" class="scroll-to-top" aria-label="Вернуться наверх">
+			<svg xmlns="http://www.w3.org/2000/svg" class="scroll-to-top__icon" width="14" height="18" viewbox="0 0 14 18" fill="none">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M7.00012 17.75C6.58591 17.75 6.25012 17.4142 6.25012 17L6.25012 2.81066L1.53045 7.53033C1.23756 7.82322 0.762684 7.82322 0.469791 7.53033C0.176898 7.23744 0.176898 6.76256 0.469791 6.46967L6.46979 0.46967C6.61044 0.329018 6.80121 0.250001 7.00012 0.250001C7.19903 0.250001 7.3898 0.329018 7.53045 0.46967L13.5305 6.46967C13.8233 6.76256 13.8233 7.23744 13.5305 7.53033C13.2376 7.82322 12.7627 7.82322 12.4698 7.53033L7.75012 2.81066L7.75012 17C7.75012 17.4142 7.41434 17.75 7.00012 17.75Z" fill="#fff"></path>
+			</svg>
+		</button>
+	</body>
+</html>
