@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<style data-fls-preloader="true" rel="preload">
+		<style data-fls-preloader="false" rel="preload">
 			body>*:not(.fls-preloader) {
       opacity: 0;
       visibility: hidden;
@@ -19,15 +19,15 @@
 		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Book a Table</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1769051684022"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769051684022">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1770660229487"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1770660229487">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" data-fls-lp="" class="header">
 				<div class="header__container">
 					<div class="header__body">
-						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="burger menu" class="icon-menu">
 							<span></span>
 						</button>
 						<a href="index.html" class="header__link-logo">
@@ -74,7 +74,7 @@
 					<div data-fls-mainpicture="" class="mainpicture">
 						<picture>
 							<source media="(max-width: 600px)" srcset="./assets/img/reservation/bg-600.webp" type="image/webp">
-							<img class="mainpicture__image" alt="Image" src="./assets/img/reservation/bg.webp">
+							<img loading="lazy" class="mainpicture__image" alt="main picture" src="./assets/img/reservation/bg.webp">
 						</picture>
 						<div class="mainpicture__body">
 							<h1 data-fls-watcher="" data-fls-watcher-once="" class="mainpicture__title">
@@ -136,9 +136,6 @@
 						<div data-fls-bottom="" data-fls-border="" class="bottom">
 							<ul class="bottom__list">
 								<li class="bottom__item">
-									<a href="#" class="bottom__link">By Pawel Gola</a>
-								</li>
-								<li class="bottom__item">
 									<a href="#" class="bottom__link">Licensing</a>
 								</li>
 								<li class="bottom__item">
@@ -148,7 +145,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- ========================================================================================================= -->
 			</main>
 		</div>
 		<!-- ? scroll-to-top buttton -->

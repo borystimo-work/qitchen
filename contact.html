@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<style data-fls-preloader="true" rel="preload">
+		<style data-fls-preloader="false" rel="preload">
 			body>*:not(.fls-preloader) {
       opacity: 0;
       visibility: hidden;
@@ -19,15 +19,15 @@
 		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Contact</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1769051684020"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769051684020">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1770660229484"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1770660229484">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" data-fls-lp="" class="header">
 				<div class="header__container">
 					<div class="header__body">
-						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="burger menu" class="icon-menu">
 							<span></span>
 						</button>
 						<a href="index.html" class="header__link-logo">
@@ -74,7 +74,7 @@
 					<div data-fls-mainpicture="" class="mainpicture">
 						<picture>
 							<source media="(max-width: 600px)" srcset="./assets/img/contact/bg-600.webp" type="image/webp">
-							<img class="mainpicture__image" alt="bg" src="./assets/img/contact/bg.webp">
+							<img loading="lazy" class="mainpicture__image" alt="bg" src="./assets/img/contact/bg.webp">
 						</picture>
 						<div class="mainpicture__body">
 							<h1 data-fls-watcher="" data-fls-watcher-once="" class="mainpicture__title">Contact</h1>
@@ -117,22 +117,22 @@
 								<div class="opening-hours__images">
 									<a data-fls-watcher="" data-fls-watcher-once="" aria-label="instagram" href="https://www.instagram.com/" target="_blank" class="opening-hours__picture --icon-s-inst">
 										<picture>
-											<img class="opening-hours__image" alt="Image" src="./assets/img/contact/01.webp">
+											<img loading="lazy" class="opening-hours__image" alt="Image" src="./assets/img/contact/01.webp">
 										</picture>
 									</a>
 									<a data-fls-watcher="" data-fls-watcher-once="" aria-label="instagram" href="https://www.instagram.com/" target="_blank" class="opening-hours__picture --icon-s-inst">
 										<picture>
-											<img class="opening-hours__image" alt="Image" src="./assets/img/contact/02.webp">
+											<img loading="lazy" class="opening-hours__image" alt="Image" src="./assets/img/contact/02.webp">
 										</picture>
 									</a>
 									<a data-fls-watcher="" data-fls-watcher-once="" aria-label="instagram" href="https://www.instagram.com/" target="_blank" class="opening-hours__picture --icon-s-inst">
 										<picture>
-											<img class="opening-hours__image" alt="Image" src="./assets/img/contact/03.webp">
+											<img loading="lazy" class="opening-hours__image" alt="Image" src="./assets/img/contact/03.webp">
 										</picture>
 									</a>
 									<a data-fls-watcher="" data-fls-watcher-once="" aria-label="instagram" href="https://www.instagram.com/" target="_blank" class="opening-hours__picture --icon-s-inst">
 										<picture>
-											<img class="opening-hours__image" alt="Image" src="./assets/img/contact/04.webp">
+											<img loading="lazy" class="opening-hours__image" alt="Image" src="./assets/img/contact/04.webp">
 										</picture>
 									</a>
 								</div>
@@ -179,9 +179,6 @@
 						</section>
 						<div data-fls-bottom="" data-fls-border="" class="bottom">
 							<ul class="bottom__list">
-								<li class="bottom__item">
-									<a href="#" class="bottom__link">By Pawel Gola</a>
-								</li>
 								<li class="bottom__item">
 									<a href="#" class="bottom__link">Licensing</a>
 								</li>

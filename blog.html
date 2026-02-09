@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<style data-fls-preloader="true" rel="preload">
+		<style data-fls-preloader="false" rel="preload">
 			body>*:not(.fls-preloader) {
       opacity: 0;
       visibility: hidden;
@@ -19,15 +19,15 @@
 		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Blog</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1769051684019"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1769051684019">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1770660229485"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1770660229485">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" data-fls-lp="" class="header">
 				<div class="header__container">
 					<div class="header__body">
-						<button type="button" data-fls-menu="" aria-label="open menu" class="icon-menu">
+						<button type="button" data-fls-menu="" aria-label="burger menu" class="icon-menu">
 							<span></span>
 						</button>
 						<a href="index.html" class="header__link-logo">
@@ -74,7 +74,7 @@
 					<div data-fls-mainpicture="" class="mainpicture">
 						<picture>
 							<source media="(max-width: 600px)" srcset="./assets/img/blog/bg-600.webp" type="image/webp">
-							<img class="mainpicture__image" alt="bg" src="./assets/img/blog/bg.webp">
+							<img loading="lazy" class="mainpicture__image" alt="main picture" src="./assets/img/blog/bg.webp">
 						</picture>
 						<div class="mainpicture__body">
 							<h1 data-fls-watcher="" data-fls-watcher-once="" class="mainpicture__title">blog</h1>
@@ -94,11 +94,11 @@
 								<article data-fls-blogitem="" class="blogitem">
 									<a data-fls-watcher="" data-fls-watcher-once="" href="blogsingle.html" class="blogitem__picture">
 										<picture>
-											<img class="blogitem__image" alt="Image" src="./assets/img/blog/01.webp">
+											<img loading="lazy" class="blogitem__image" alt="Image" src="./assets/img/blog/01.webp">
 										</picture>
 									</a>
 									<div data-fls-watcher="" data-fls-watcher-once="" data-fls-headerblock="" class="header-block">
-										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="PT5M, 2023-08-24">24th Aug 2023</time>
+										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="2023-08-24">24th Aug 2023</time>
 										<h2 class="header-block__title header-block__title--fz24">
 											<a href="blogsingle.html" class="blogitem__title-link">How Qitchen Redefines Flavor Harmony in Every Bite</a>
 										</h2>
@@ -112,11 +112,11 @@
 								<article data-fls-blogitem="" class="blogitem">
 									<a data-fls-watcher="" data-fls-watcher-once="" href="blogsingle.html" class="blogitem__picture">
 										<picture>
-											<img class="blogitem__image" alt="Image" src="./assets/img/blog/02.webp">
+											<img loading="lazy" class="blogitem__image" alt="Image" src="./assets/img/blog/02.webp">
 										</picture>
 									</a>
 									<div data-fls-watcher="" data-fls-watcher-once="" data-fls-headerblock="" class="header-block">
-										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="PT5M, 2023-08-24">24th Aug 2023</time>
+										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="2023-08-24">24th Aug 2023</time>
 										<h2 class="header-block__title header-block__title--fz24">
 											<a href="blogsingle.html" class="blogitem__title-link">Unveiling the Mastery Behind Our Culinary Craftsmanship</a>
 										</h2>
@@ -130,11 +130,11 @@
 								<article data-fls-blogitem="" class="blogitem">
 									<a data-fls-watcher="" data-fls-watcher-once="" href="blogsingle.html" class="blogitem__picture">
 										<picture>
-											<img class="blogitem__image" alt="Image" src="./assets/img/blog/03.webp">
+											<img loading="lazy" class="blogitem__image" alt="Image" src="./assets/img/blog/03.webp">
 										</picture>
 									</a>
 									<div data-fls-watcher="" data-fls-watcher-once="" data-fls-headerblock="" class="header-block">
-										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="PT5M, 2023-08-24">24th Aug 2023</time>
+										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="2023-08-24">24th Aug 2023</time>
 										<h2 class="header-block__title header-block__title--fz24">
 											<a href="blogsingle.html" class="blogitem__title-link">Journey through Freshness Exquisite Sushi Selection</a>
 										</h2>
@@ -148,11 +148,11 @@
 								<article data-fls-blogitem="" class="blogitem">
 									<a data-fls-watcher="" data-fls-watcher-once="" href="blogsingle.html" class="blogitem__picture">
 										<picture>
-											<img class="blogitem__image" alt="Image" src="./assets/img/blog/04.webp">
+											<img loading="lazy" class="blogitem__image" alt="Image" src="./assets/img/blog/04.webp">
 										</picture>
 									</a>
 									<div data-fls-watcher="" data-fls-watcher-once="" data-fls-headerblock="" class="header-block">
-										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="PT5M, 2023-08-24">24th Aug 2023</time>
+										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="2023-08-24">24th Aug 2023</time>
 										<h2 class="header-block__title header-block__title--fz24">
 											<a href="blogsingle.html" class="blogitem__title-link">Palate with Qitchen’s Unsurpassed Sushi Delicacies</a>
 										</h2>
@@ -166,11 +166,11 @@
 								<article data-fls-blogitem="" class="blogitem">
 									<a data-fls-watcher="" data-fls-watcher-once="" href="blogsingle.html" class="blogitem__picture">
 										<picture>
-											<img class="blogitem__image" alt="Image" src="./assets/img/blog/05.webp">
+											<img loading="lazy" class="blogitem__image" alt="Image" src="./assets/img/blog/05.webp">
 										</picture>
 									</a>
 									<div data-fls-watcher="" data-fls-watcher-once="" data-fls-headerblock="" class="header-block">
-										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="PT5M, 2023-08-24">24th Aug 2023</time>
+										<time class="header-block__label header-block__label--icon header-block__label--icon-before" datetime="2023-08-24">24th Aug 2023</time>
 										<h2 class="header-block__title header-block__title--fz24">
 											<a href="blogsingle.html" class="blogitem__title-link">The Qitchen Experience Beyond Sushi</a>
 										</h2>
@@ -186,9 +186,6 @@
 						<div data-fls-bottom="" data-fls-border="" class="bottom">
 							<ul class="bottom__list">
 								<li class="bottom__item">
-									<a href="#" class="bottom__link">By Pawel Gola</a>
-								</li>
-								<li class="bottom__item">
 									<a href="#" class="bottom__link">Licensing</a>
 								</li>
 								<li class="bottom__item">
@@ -198,7 +195,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- ========================================================================================================= -->
 			</main>
 		</div>
 		<!-- ? scroll-to-top buttton -->
