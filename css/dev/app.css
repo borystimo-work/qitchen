@@ -1263,7 +1263,7 @@ textarea.input {
 }
 .mainpicture__body {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   gap: 0.625rem;
@@ -1282,7 +1282,7 @@ textarea.input {
   display: block;
 }
 .mainpicture__title {
-  transform: translate(-9.375rem, 0);
+  transform: translate(-3.125rem, 0);
   opacity: 0;
 }
 .mainpicture__title.--watcher-view {
@@ -2355,6 +2355,11 @@ textarea.input {
   .reservation {
     flex-grow: 1;
   }
+  .page--menu .page__container .mainpicture {
+    position: sticky;
+    top: 1.5rem;
+    height: 100vh;
+  }
   .page--home {
     height: 100vh;
   }
@@ -2387,8 +2392,18 @@ textarea.input {
   .opening-hours__body.--watcher-view:nth-child(4) {
     transition: transform 0.8s ease 0.3s, opacity 0.8s ease 0.3s;
   }
+  .page--blogsingle .page__container .mainpicture {
+    position: sticky;
+    top: 1.5rem;
+    height: 100vh;
+  }
   .blogsingle {
     flex-grow: 1;
+  }
+  .page--blog .page__container .mainpicture {
+    position: sticky;
+    top: 1.5rem;
+    height: 100vh;
   }
   .blog {
     flex-grow: 1;
